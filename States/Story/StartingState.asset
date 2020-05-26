@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407ee1d9f5e943a41a50bf942b81b57e, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'The City is under attack you are the only hope to your nation,but the
+    villain has captured your wife and he asks you to join him to save her
+
+
+
+    Choices
+    you  have:
+
+
+
+    1.)Join the villain and kill people
+
+    2.)attack the villain
+    and sacrifice ur wife'
+  nextStates:
+  - {fileID: 11400000, guid: e1e356883bdb71449b48018edadf33e4, type: 2}
+  - {fileID: 11400000, guid: 61084e52d259b9240b54fac43f07274a, type: 2}
